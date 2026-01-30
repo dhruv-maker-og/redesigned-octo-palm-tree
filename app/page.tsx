@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <main>
-      <h1>Next.js 13 (pinned) – Copilot CLI <code>/delegate</code> Demo</h1>
-      <p>This repo is intentionally pinned to Next 13 to showcase upgrading to latest Next with Copilot CLI.</p>
-      <p>Use the README’s “Demo Script” with Copilot CLI to offload the upgrade and open a PR.</p>
+      <h1>Next.js 15 – Copilot CLI <code>/delegate</code> Demo</h1>
+      <p>This repo has been successfully upgraded to Next.js 15 using Copilot CLI.</p>
+      <p>The upgrade included Next.js 15.5.11 and React 19.2.4 with all modern features.</p>
     </main>
   );
 }
