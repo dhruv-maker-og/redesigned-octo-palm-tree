@@ -1,16 +1,32 @@
 # Copilot CLI Delegate Demo – Next.js
 
-This repo is **pinned to Next 13** so you can demo GitHub Copilot CLI’s **/delegate** flow:
-- Offload a long-running **framework upgrade** to a **cloud agent**
-- **Stream logs** back into your terminal
-- Land an **automatic PR** with changes and passing CI
+This repo has been **upgraded to Next.js 15** using GitHub Copilot CLI's **/delegate** flow:
+- Successfully upgraded from Next.js 13.5.6 to Next.js 15.5.11
+- Upgraded React from 18.2.0 to 19.2.4
+- All tests passing and build verified
+- Demonstrates offloading **framework upgrades** to a **cloud agent**
+
+## What Changed
+- ✅ Next.js 13.5.6 → 15.5.11
+- ✅ React 18.2.0 → 19.2.4
+- ✅ @testing-library/react 14.2.1 → 16.3.2 (React 19 support)
+- ✅ TypeScript configuration auto-updated for Next.js 15
+- ✅ All builds and tests verified
 
 ## Prereqs
 - GitHub Copilot subscription with **Copilot CLI** enabled
 - Node 22+, npm 10+
 - (Optional) Codespaces if you prefer browser-based demo
 
-## Local run (optional)
+## Local run
 ```bash
 npm install
-npm run dev# copilot-cli-demo
+npm run dev
+```
+
+## Build and Test
+```bash
+npm run build  # Build production bundle
+npm run test   # Run test suite
+npm run ci     # Run build + test
+```
